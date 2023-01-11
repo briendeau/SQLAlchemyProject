@@ -4,6 +4,9 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
 
+
+# mapping tables to classes by extending with base
+
 Base = declarative_base()
 
 class Restaurant(Base):
